@@ -1,0 +1,119 @@
+/*background*/
+body {
+	background-color: #ABACEF;
+}
+
+/*TOP TABLE W/ WELCOME AND SELECT*/
+	/*this applies bold and color to anything in this row. which is the top row*/
+	tr.Headline{
+		color: #0001F2;	
+		font-weight: bold;
+	}
+	/* This is for the whole top row, welcome and select*/
+	td.Welcome{
+		font-family: serif;
+		color: #0204f7;
+		text-shadow: 0px 0px 18px #00007d;
+		font-size: 53.5pt;
+		font-weight: bold;
+	}
+	/*this is for the select box*/
+	td.Select{
+		border: 5px;
+		border-style: solid;
+		border-color: #130B92;
+		background-color: #C9A8EF;
+		font-weight: bold;
+		font-size: 21pt;
+		font-style: italic;
+		color: #0E00C9;
+		width: 8%;
+		text-align: center;
+	}
+
+/* SIDE TABLE WITH ARROWS AND DOTS */
+	/* This is the main for the table on the left, with the arros and boxes*/
+	table.SideMenu{
+		border-style: dotted;
+		border-color: #24218A;
+		border-spacing: 3px;
+	}
+	/* this is the td for table on left, this is for the box on the right of arrow */
+	td.SideMenuText{
+		color: #DBDCFA;
+		border: #010066;
+		background-color: #010066;
+		text-decoration: underline;
+		font-size: 14pt;
+		box-shadow: 0px -2px #5a59d2, 0px -4px #1d1e78, 0px 2px #1d1e78, 0px 4px #5a59d2;
+		padding: 8px;
+		text-align: right;
+	}
+	/* background for side menu with arrows */
+	td.Arrow{
+		width: 15%;
+		border-style: solid;
+		background-color: #24218A;
+		box-shadow: 0px -2px #5a59d2, 0px -4px #1d1e78, 0px 2px #1d1e78, 0px 4px #5a59d2;
+		text-align: center;
+	}
+
+/*RIGHT TABLE W/ PICTURES AND WITCH*/
+	/*set the entire right table to align to top, includes the blue pictures and witch*/
+	td.RightTable{
+		vertical-align: top;
+	}
+	/* for the table with blue pictures, makes the borders around each image to go away*/
+	table.PictureCollapse{
+		border-collapse: collapse;
+	}
+	/* This is to get the words next to witch the right way */
+	td.WitchWords{
+		font-size: 18pt;
+		color: #454545;
+		font-family: sans-serif;
+		align-items: center;
+		text-align: center;
+	}
+	/* This is for the witch picture */
+	img.WitchPic{
+		border: solid 8px #020570;
+		box-shadow:  0px 3px #414252, 0px 6px #7A79A3 , 0px -3px #7A79A3, 0px -6px #414252;
+		align-items: center;
+	}
+
+/*INFO TABLE*/
+	/* this is literally just to create a bunch of space between middle table and infopanel */
+	table.MarginSpace {
+		margin-top: 40px;
+	}
+	/* Sets height of box, border, and aligns the text */
+	td.InfoCell {
+		height: 150px;
+		border: 3px inset;
+		vertical-align: top;
+		text-align: left;
+
+	}
+	/* This is to set up the info panel to look nice */
+	div.InfoBox{
+		color: #454545;
+		padding: 8px;
+		font-family: sans-serif;
+		font-weight: thin;
+		font-size: 16pt;
+		max-height: 150px;
+		overflow-y: scroll;
+	}
+
+/*BOTTOM WITH GRADIANT AND WORDS*/
+	/* sets email and about to be white and have an underline */
+	td.White{
+		text-decoration: underline;
+		color: white;
+	}
+	/* Main for bottom table with gradiant*/
+	table.BottomTable{
+		background-image: linear-gradient(#ABACEF,BLACK);
+		font-family: monospace;
+	}
